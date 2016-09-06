@@ -6,5 +6,4 @@ const Examples = (props) => {
     );
 };
 
-
 module.exports = Examples;

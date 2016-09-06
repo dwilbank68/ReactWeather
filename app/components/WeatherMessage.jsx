@@ -8,5 +8,5 @@ const WeatherMessage = (props) => {
     );
 };
 
-//module.exports = WeatherMessage;
-export default WeatherMessage;
+module.exports = WeatherMessage;
+//export default WeatherMessage;

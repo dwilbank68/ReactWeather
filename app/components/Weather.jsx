@@ -15,7 +15,6 @@ var Weather = React.createClass({
 
 
     handleSearch(location){
-
         this.setState({isLoading: true});
 
         openWeatherMap.getTemp(location)
@@ -37,8 +36,6 @@ var Weather = React.createClass({
     },
 
     render: function () {
-
-
         return (
             <div>
                 <h3>Get Weather</h3>
@@ -49,9 +46,7 @@ var Weather = React.createClass({
     },
 
     renderMessage(){
-
         var {isLoading, temp, location} = this.state;
-
 
         if (isLoading){
             return (

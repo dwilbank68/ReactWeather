@@ -1,16 +1,3 @@
-//'use strict';
-//
-//var React = require('react');
-//
-//var WeatherMessage = React.createClass({
-//    render: function () {
-//        return (
-//            <div>
-//            </div>
-//        );
-//    }
-//});
-//
 import React from 'react';
 
 const WeatherMessage = (props) => {
@@ -21,4 +8,5 @@ const WeatherMessage = (props) => {
     );
 };
 
-module.exports = WeatherMessage;
+//module.exports = WeatherMessage;
+export default WeatherMessage;

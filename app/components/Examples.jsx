@@ -2,8 +2,8 @@ import React from 'react';
 
 const Examples = (props) => {
     return (
-        <h3>Examples Component</h3>
+        <h3>Examples</h3>
     );
 };
 
-module.exports = Examples;
+export default Examples;

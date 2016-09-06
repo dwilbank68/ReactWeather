@@ -1,15 +1,12 @@
-
-
 import React from 'react';
 
 const About = (props) => {
     return (
-        <h3>About Component</h3>
+        <div>
+            <h3>About</h3>
+            <p>Welcome </p>
+        </div>
     );
 };
 
-//About.propTypes = {};
-//About.defaultProps = {};
-
-module.exports = About;
-
+export default About;

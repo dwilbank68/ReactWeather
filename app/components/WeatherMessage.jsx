@@ -3,10 +3,10 @@ import React from 'react';
 const WeatherMessage = (props) => {
     return (
         <div>
-            <p>It's {props.temp} in {props.location}!</p>
+            <h3 className="text-center">It's {props.temp} in {props.location}!</h3>
         </div>
     );
 };
 
-module.exports = WeatherMessage;
-//export default WeatherMessage;
+//module.exports = WeatherMessage;
+export default WeatherMessage;
